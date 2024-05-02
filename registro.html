@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Lion Corp - video games</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <!-- logo starts  -->
+        <h1 class="mainIndex">Pagina de inicio</h1>
+        <a href="index.html"
+          ><img src="assets/logoLion.jpg" alt="Lion Corp"
+        /></a>
+      </div>
+
+      <!-- nav menu  -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Registro</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="registro">
+        <form action="#" method="post">
+          <!-- informacion personal starts here -->
+          <fieldset>
+            <legend>Información Personal:</legend>
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+            <label for="apellido">Apellido:</label><br />
+            <input
+              type="text"
+              id="apellido"
+              name="apellido"
+              required
+            /><br /><br />
+
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label><br />
+            <input
+              type="date"
+              id="fecha_nacimiento"
+              name="fecha_nacimiento"
+              required
+            /><br /><br />
+
+            <label>Género:</label><br />
+            <input
+              type="radio"
+              id="masculino"
+              name="genero"
+              value="Masculino"
+              required
+            />
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="Femenino" />
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="otro" name="genero" value="Otro" />
+            <label for="otro">Otro</label><br /><br />
+          </fieldset>
+          <!-- informacion de contacto starts here -->
+          <fieldset>
+            <legend>Información de Contacto:</legend>
+            <label for="email">Dirección de Correo Electrónico:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <label for="telefono">Número de Teléfono:</label><br />
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              required
+            /><br /><br />
+
+            <label for="direccion">Dirección:</label><br />
+            <textarea id="direccion" name="direccion"></textarea><br /><br />
+          </fieldset>
+          <!-- informacion de cuenta starts here  -->
+          <fieldset>
+            <legend>Información de Cuenta:</legend>
+            <label for="usuario">Nombre de Usuario:</label><br />
+            <input
+              type="text"
+              id="usuario"
+              name="usuario"
+              required
+            /><br /><br />
+
+            <label for="contrasena">Contraseña:</label><br />
+            <input
+              type="password"
+              id="contrasena"
+              name="contrasena"
+              required
+            /><br /><br />
+
+            <label for="confirmar_contrasena">Confirmación de Contraseña:</label
+            ><br />
+            <input
+              type="password"
+              id="confirmar_contrasena"
+              name="confirmar_contrasena"
+              required
+            /><br /><br />
+          </fieldset>
+          <!-- informacion de preferencias starts here  -->
+          <fieldset>
+            <legend>Preferencias:</legend>
+            <label for="color">Seleccionar un Color Favorito:</label><br />
+            <select id="color" name="color">
+              <option value="Rojo">Rojo</option>
+              <option value="Azul">Azul</option>
+              <option value="Verde">Verde</option>
+              <option value="Amarillo">Amarillo</option></select
+            ><br /><br />
+
+            <input
+              type="checkbox"
+              id="terminos_condiciones"
+              name="terminos_condiciones"
+              required
+            />
+            <label for="terminos_condiciones"
+              >Aceptar Términos y Condiciones</label
+            ><br /><br />
+          </fieldset>
+          <!-- boton  -->
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <address>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </address>
+
+      <div class="redesSociales">
+        <nav class="navdos">
+          <p>Redes sociales</p>
+          <ul>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Pinterest</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="contactoDos">
+        <p><strong>Escribenos</strong> o llamanos al:</p>
+        <ul>
+          <li><a href="tel:70215565">Tel:7021-5565</a></li>
+          <li>
+            <a href="mailto:4peacenfreedom@gmail.com"
+              >4peacenfreedom@gmail.com</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p><small>David Romero | Derechos reservados</small></p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+header {
+  background-color: red;
+}
+
+main {
+  background-color: beige;
+}
+
+footer {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.favoritos,
+.destacados,
+.registro {
+  background-color: blue;
+  color: white;
+}
